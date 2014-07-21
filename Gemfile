@@ -7,6 +7,7 @@ gem 'bootstrap-sass', '3.2.0.0'
 # Use sqlite3 as the database for Active Record
 group :development, :test do
   gem "sqlite3-ruby", "~> 1.3.0", :require => "sqlite3"
+  gem 'factory_girl_rails', '4.2.1'
 end
 gem 'rspec-rails', '2.13.1'
 gem 'bcrypt-ruby', '3.1.5'
